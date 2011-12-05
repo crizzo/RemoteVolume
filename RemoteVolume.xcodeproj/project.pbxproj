@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F141654148D150200D85C2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F141653148D150200D85C2C /* Cocoa.framework */; };
+		8F14165E148D150200D85C2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F14165C148D150200D85C2C /* InfoPlist.strings */; };
+		8F141660148D150200D85C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F14165F148D150200D85C2C /* main.m */; };
+		8F141664148D150200D85C2C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8F141662148D150200D85C2C /* Credits.rtf */; };
+		8F141667148D150200D85C2C /* RemoteVolumeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F141666148D150200D85C2C /* RemoteVolumeAppDelegate.m */; };
+		8F14166A148D150200D85C2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F141668148D150200D85C2C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F14164F148D150200D85C2C /* RemoteVolume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteVolume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F141653148D150200D85C2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8F141656148D150200D85C2C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8F141657148D150200D85C2C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F141658148D150200D85C2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F14165B148D150200D85C2C /* RemoteVolume-Info.plist */ = {isa = PBXFileReference; path = "RemoteVolume-Info.plist"; sourceTree = "<group>"; };
+		8F14165D148D150200D85C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F14165F148D150200D85C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F141661148D150200D85C2C /* RemoteVolume-Prefix.pch */ = {isa = PBXFileReference; path = "RemoteVolume-Prefix.pch"; sourceTree = "<group>"; };
+		8F141663148D150200D85C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8F141665148D150200D85C2C /* RemoteVolumeAppDelegate.h */ = {isa = PBXFileReference; path = RemoteVolumeAppDelegate.h; sourceTree = "<group>"; };
+		8F141666148D150200D85C2C /* RemoteVolumeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteVolumeAppDelegate.m; sourceTree = "<group>"; };
+		8F141669148D150200D85C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F14164C148D150200D85C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F141654148D150200D85C2C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F141644148D150100D85C2C = {
+			isa = PBXGroup;
+			children = (
+				8F141659148D150200D85C2C /* RemoteVolume */,
+				8F141652148D150200D85C2C /* Frameworks */,
+				8F141650148D150200D85C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F141650148D150200D85C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F14164F148D150200D85C2C /* RemoteVolume.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F141652148D150200D85C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F141653148D150200D85C2C /* Cocoa.framework */,
+				8F141655148D150200D85C2C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F141655148D150200D85C2C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F141656148D150200D85C2C /* AppKit.framework */,
+				8F141657148D150200D85C2C /* CoreData.framework */,
+				8F141658148D150200D85C2C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8F141659148D150200D85C2C /* RemoteVolume */ = {
+			isa = PBXGroup;
+			children = (
+				8F141665148D150200D85C2C /* RemoteVolumeAppDelegate.h */,
+				8F141666148D150200D85C2C /* RemoteVolumeAppDelegate.m */,
+				8F141668148D150200D85C2C /* MainMenu.xib */,
+				8F14165A148D150200D85C2C /* Supporting Files */,
+			);
+			path = RemoteVolume;
+			sourceTree = "<group>";
+		};
+		8F14165A148D150200D85C2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F14165B148D150200D85C2C /* RemoteVolume-Info.plist */,
+				8F14165C148D150200D85C2C /* InfoPlist.strings */,
+				8F14165F148D150200D85C2C /* main.m */,
+				8F141661148D150200D85C2C /* RemoteVolume-Prefix.pch */,
+				8F141662148D150200D85C2C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F14164E148D150200D85C2C /* RemoteVolume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F14166D148D150200D85C2C /* Build configuration list for PBXNativeTarget "RemoteVolume" */;
+			buildPhases = (
+				8F14164B148D150200D85C2C /* Sources */,
+				8F14164C148D150200D85C2C /* Frameworks */,
+				8F14164D148D150200D85C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteVolume;
+			productName = RemoteVolume;
+			productReference = 8F14164F148D150200D85C2C /* RemoteVolume.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F141646148D150100D85C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Crizzo Designs";
+			};
+			buildConfigurationList = 8F141649148D150100D85C2C /* Build configuration list for PBXProject "RemoteVolume" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F141644148D150100D85C2C;
+			productRefGroup = 8F141650148D150200D85C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F14164E148D150200D85C2C /* RemoteVolume */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F14164D148D150200D85C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F14165E148D150200D85C2C /* InfoPlist.strings in Resources */,
+				8F141664148D150200D85C2C /* Credits.rtf in Resources */,
+				8F14166A148D150200D85C2C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F14164B148D150200D85C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F141660148D150200D85C2C /* main.m in Sources */,
+				8F141667148D150200D85C2C /* RemoteVolumeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F14165C148D150200D85C2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F14165D148D150200D85C2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F141662148D150200D85C2C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F141663148D150200D85C2C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8F141668148D150200D85C2C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F141669148D150200D85C2C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F14166B148D150200D85C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F14166C148D150200D85C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F14166E148D150200D85C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteVolume/RemoteVolume-Prefix.pch";
+				INFOPLIST_FILE = "RemoteVolume/RemoteVolume-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F14166F148D150200D85C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteVolume/RemoteVolume-Prefix.pch";
+				INFOPLIST_FILE = "RemoteVolume/RemoteVolume-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F141649148D150100D85C2C /* Build configuration list for PBXProject "RemoteVolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F14166B148D150200D85C2C /* Debug */,
+				8F14166C148D150200D85C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F14166D148D150200D85C2C /* Build configuration list for PBXNativeTarget "RemoteVolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F14166E148D150200D85C2C /* Debug */,
+				8F14166F148D150200D85C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F141646148D150100D85C2C /* Project object */;
+}
