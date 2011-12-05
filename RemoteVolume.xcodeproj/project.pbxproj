@@ -21,12 +21,12 @@
 		8F141656148D150200D85C2C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8F141657148D150200D85C2C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8F141658148D150200D85C2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8F14165B148D150200D85C2C /* RemoteVolume-Info.plist */ = {isa = PBXFileReference; path = "RemoteVolume-Info.plist"; sourceTree = "<group>"; };
+		8F14165B148D150200D85C2C /* RemoteVolume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteVolume-Info.plist"; sourceTree = "<group>"; };
 		8F14165D148D150200D85C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F14165F148D150200D85C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F141661148D150200D85C2C /* RemoteVolume-Prefix.pch */ = {isa = PBXFileReference; path = "RemoteVolume-Prefix.pch"; sourceTree = "<group>"; };
+		8F141661148D150200D85C2C /* RemoteVolume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteVolume-Prefix.pch"; sourceTree = "<group>"; };
 		8F141663148D150200D85C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		8F141665148D150200D85C2C /* RemoteVolumeAppDelegate.h */ = {isa = PBXFileReference; path = RemoteVolumeAppDelegate.h; sourceTree = "<group>"; };
+		8F141665148D150200D85C2C /* RemoteVolumeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteVolumeAppDelegate.h; sourceTree = "<group>"; };
 		8F141666148D150200D85C2C /* RemoteVolumeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteVolumeAppDelegate.m; sourceTree = "<group>"; };
 		8F141669148D150200D85C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
